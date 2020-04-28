@@ -15,7 +15,6 @@
   "license": "CC-BY-NC",
   "private": true,
   "main": [
-    "dist/ng-annotate-text-latest.css",
     "dist/ng-annotate-text-latest.js"
   ],
   "ignore": [
