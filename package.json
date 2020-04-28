@@ -1,30 +1,61 @@
 {
-  "name": "ng-annotate-text",
-  "version": "2.5.1",
-  "description": "An AngularJS directive to assist with annotation of text",
-  "repository": {
+  "_from": "git+https://github.com/loxllxol/ng-annotate-text.git",
+  "_id": "ng-annotate-text@2.5.1",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/ng-annotate-text",
+  "_phantomChildren": {},
+  "_requested": {
     "type": "git",
-    "url": "https://github.com/DigiExam/ng-annotate-text.git"
+    "raw": "ng-annotate-text@git+https://github.com/loxllxol/ng-annotate-text.git",
+    "name": "ng-annotate-text",
+    "escapedName": "ng-annotate-text",
+    "rawSpec": "git+https://github.com/loxllxol/ng-annotate-text.git",
+    "saveSpec": "git+https://github.com/loxllxol/ng-annotate-text.git",
+    "fetchSpec": "https://github.com/loxllxol/ng-annotate-text.git",
+    "gitCommittish": null
   },
-  "author": "Rasmus Milesson",
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/loxllxol/ng-annotate-text.git#0c3854caab46438c289d85be2f2a0c94e52cbae2",
+  "_spec": "ng-annotate-text@git+https://github.com/loxllxol/ng-annotate-text.git",
+  "_where": "/Users/Dan/dmnd/client",
+  "author": {
+    "name": "Rasmus Milesson"
+  },
   "bugs": {
     "url": "https://github.com/DigiExam/ng-annotate-text/issues"
   },
-  "homepage": "https://github.com/DigiExam/ng-annotate-text",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "An AngularJS directive to assist with annotation of text",
   "devDependencies": {
     "bower": "~1.3.8",
-		"gulp": "~3.8.6",
-		"gulp-load-plugins": "~0.5.3",
-		"gulp-rename": "~1.2.0",
-		"gulp-ruby-sass": "~0.6.0",
-		"gulp-autoprefixer": "~0.0.8",
-		"gulp-minify-css": "~0.3.7",
-		"gulp-uglify": "~0.3.1",
-		"gulp-coffee": "~2.1.1",
-		"gulp-sourcemaps": "~1.1.0",
-		"gulp-replace": "~0.4.0"
+    "gulp": "~3.8.6",
+    "gulp-autoprefixer": "~0.0.8",
+    "gulp-coffee": "~2.1.1",
+    "gulp-load-plugins": "~0.5.3",
+    "gulp-minify-css": "~0.3.7",
+    "gulp-rename": "~1.2.0",
+    "gulp-replace": "~0.4.0",
+    "gulp-ruby-sass": "~0.6.0",
+    "gulp-sourcemaps": "~1.1.0",
+    "gulp-uglify": "~0.3.1"
   },
+  "homepage": "https://github.com/DigiExam/ng-annotate-text",
+  "name": "ng-annotate-text",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DigiExam/ng-annotate-text.git"
+  },
+  "main": [
+    "dist/ng-annotate-text-latest.js"
+    "dist/ng-annotate-text-latest.css"
+  ],
   "scripts": {
-    "postinstall": "./node_modules/.bin/bower install"
-  }
+    "postinstall": "bower install"
+  },
+  "version": "2.5.1"
 }
