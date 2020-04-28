@@ -51,7 +51,7 @@
     "url": "git+https://github.com/DigiExam/ng-annotate-text.git"
   },
   "main": [
-    "dist/ng-annotate-text-latest.js"
+    "dist/ng-annotate-text-latest.js",
     "dist/ng-annotate-text-latest.css"
   ],
   "scripts": {
