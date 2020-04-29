@@ -1,4 +1,6 @@
 (function() {
+'use strict';
+
   var annotationIdCounter, getAnnotationById, insertAt, ngAnnotateText, parseAnnotations, sortAnnotationsByEndIndex;
 
   ngAnnotateText = angular.module("ngAnnotateText", []);
@@ -232,7 +234,7 @@
     return Annotation;
   });
 
-  ngAnnotateText.directive("ngAnnotateText", function($rootScope, $compile, $http, $q, $controller, $sce, NGAnnotation, NGAnnotateTextPopup) {
+  ngAnnotateText.directive("ngAnnotateText", ['$rootScope', '$compile', '$http', '$q', '$controller', '$sce', 'NGAnnotation', 'NGAnnotateTextPopup', function($rootScope, $compile, $http, $q, $controller, $sce, NGAnnotation, NGAnnotateTextPopup) {
     return {
       restrict: "E",
       scope: {
@@ -542,7 +544,7 @@
         });
       }
     };
-  });
+  }]);
 
 }).call(this);
 
